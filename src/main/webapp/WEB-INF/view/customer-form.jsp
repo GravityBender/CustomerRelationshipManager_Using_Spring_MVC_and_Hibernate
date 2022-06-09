@@ -17,6 +17,7 @@
 	<div id="container">
 	    <h3>Add Customer</h3>
 	    <form:form action="saveCustomer" modelAttribute="customer" method="POST">
+	        <form:hidden path="id"/>
 	        <table>
 	            <tbody>
 	                <tr>
